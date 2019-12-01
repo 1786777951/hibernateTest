@@ -3,8 +3,11 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
+        </datasource-map>
         <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
     </facet>
   </component>
@@ -17,5 +20,14 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.52" level="application_server_libraries" />
     <orderEntry type="library" name="Hibernate 5.4.9-5.4.9" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/编程/JAVA manven/MYSQL/mysql JDBC/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping package="main.bean">
+    <!-- table-数据表-->
+
+    <class name="main.bean.Product" table="product_">
+        <id name="id" column="id">
+            <!--意味着id的自增长方式采用数据库的本地方式-->
+            <generator class="native"></generator>
+        </id>
+        <property name="name"></property>
+        <property name="price"></property>
+    </class>
+
+</hibernate-mapping>
